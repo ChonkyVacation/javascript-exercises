@@ -1,6 +1,12 @@
-const repeatString = function() {
-
+const repeatString = function(x, y) {
+if (y >= 0) {
+    for (let i = 0; i < y; i++ ); {
+    return x.repeat(y);
+}
+}
+return 'ERROR';
 };
 
-// Do not edit below this line
+repeatString('hey', 3);
+
 module.exports = repeatString;
